@@ -22,7 +22,8 @@ public class deneme {
             sumSolEgik += a[i][i];
             sumSagEgik+= a[i][size-i];
         }
-        System.out.println(Math.abs(sumSagEgik-sumSolEgik));
+        System.out.println(sumSagEgik);
+        System.out.println(sumSolEgik);
     }
 }
 
