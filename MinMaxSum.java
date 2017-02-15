@@ -15,6 +15,7 @@ public class deneme {
         long d = in.nextLong();
         long e = in.nextLong();
 
+        //First way
         List<Long> list = new ArrayList<>();
         list.add(a);
         list.add(b);
@@ -29,6 +30,24 @@ public class deneme {
         long minValue = list.get(0);
         long maxValue = list.get(list.size()-1);
         System.out.println((MIN - minValue) + " " + (MAX - maxValue));
+        
+        //Second way
+        
+//        List<Long> list = new ArrayList<>();
+//        List<Long> listOfSums = Arrays.asList(a,b,c,d,e);
+//
+//        long sums ;
+//        for (int i = 0; i < listOfSums.size(); i++) {
+//            sums = 0;
+//            for (int j = 0; j < listOfSums.size(); j++) {
+//                sums += listOfSums.get(j);
+//            }
+//            sums -= listOfSums.get(i);
+//            list.add(sums);
+//        }
+//
+//        Collections.sort(list);
+//        System.out.print(list.get(0) + " " + list.get(list.size()-1));        
 
 
 
